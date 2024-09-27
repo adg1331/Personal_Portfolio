@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>MY PORTFOLIO</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+ <!----------Main Container----------->
+<!----------------------------------->
+<div class="mainContainer">
+    
+ <!------Hero Section------>
+ <div class="heroSection" id="home">
+   <!------Hero Image----->
+   <img src="hero-image.png">
+   
+   
+   <!-----Hero Title------>
+   <div class="heroTitle">
+    <h1>hi, I'm <br> atanu debnath</h1>
+    <p>A Student Of 11 Standard Studying at KUEHS,<br> Who Is Highly Interested In <br>The World Of Web Development</p>
+   </div>
+   
+   
+   <!-----Navbar----->
+     <div class="navBar">
+     <div class="navLogo">
+       <div class="logo">
+        <a href="#home">
+         <img src="logo.png">
+        </a>
+       </div>
+        <a href="#home">
+          <h3>Atanu</h3>
+       </a>
+     </div>
+    
+    
+     <div class="menuIcon">
+       <i class="bi bi-list-nested" onclick="toggleMenu()"></i>
+     </div>
+     
+     <div class="navbar-menu" id="subMenu">
+       <div class="menu-wrap">
+         <i class="bi bi-x-lg" onclick="toggleMenu()"></i>
+       <a href="#"><h1>Home</h1></a>
+       <a href="#"><h1>projects</h1></a>
+       <a href="#"><h1>contact</h1></a>
+      </div>
+    </div>
+    </div>
+   
+  
+    <!-----Triangle Shape----->
+    <div class="heroShape" id="overview"></div>
+    
+    <!----hero button---->
+     <div class="hero-btn-con">
+       <a href="#overview">
+          <button class="hero-btn" type="button" onclick="#overview">
+            <div onclick="#overview"></div>
+          </button>
+       </a>
+     </div>
+   </div>
+ <!-----HeroSection Ended------>
+
+    
+    
+    
+    <!----------Overview Section----------->
+    <div class="overiewSection">
+      
+      <div class="overview-title">
+        <h4>introduction</h4>
+        <h1>overview</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea quaerat alias accusamus voluptas autem! Alias odit voluptates in totam vitae dignissimos minus eaque culpa unde tempore dolore aperiam obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde veniam dolorum ipsum doloribus.</p>
+      </div>
+   
+      
+     <!------My Skill Boxex------->
+     <div class="skills" id="skills">
+       
+       <div class="skill-box">
+          <img src="/frontend.png" alt="">
+          <span>frontend <br> developer</span>
+       </div>
+     
+       <div class="skill-box">
+          <img src="/backend.png" alt="">
+          <span>backend <br> developer</span>
+       </div>
+      
+       <div class="skill-box">
+         <img src="/ux-design.png" alt="">
+         <span>ui/ux design</span>
+       </div>
+       
+       <div class="skill-box">
+         <img src="/software.png" alt="">
+         <span>Software <br> development</span>
+       </div>
+       </div>
+       <!------Overview Section Ended---->
+      </div>
+    <!--------overiewSection Ended-------->
+    
+    <div class="technology">
+      
+      <div class="technology-title">
+        <h5>I'll Learn These</h5>
+        <h1>technologies.</h1>
+      </div>
+     
+      
+      <div class="hexagon-con">
+        <div class="hexagon"><h1>HTML</h1></div>
+      
+        <div class="hexagon"><h1>CSS</h1></div>
+       
+        <div class="hexagon"><h1>JS</h1></div>
+    
+        <div class="hexagon"><h1>PY</h1></div>
+       
+        <div class="hexagon"><h1>REACT</h1></div>
+    
+        <div class="hexagon"><h1>3JS</h1></div>
+      </div>
+      
+      
+    </div>
+    <!---------Technology Section Ended-------->
+    
+    
+    
+    <!--------Project Sectiion-------->
+    <div class="project-section" id="project">
+      
+      <div class="project-title">
+        <h5>Case Studies</h5>
+        <h1>Projects.</h1>
+        <span>These projects demonstrate my expertise with practical examples of some of my work, including brief descriptions and links to code repositories  and live demos. They showcase my ability to tackle intricate challenges, adapt to various technologies, and efficiently oversee projects.</span>
+      </div>
+      
+      
+      <!------Projects------>
+      <div class="project-con">
+        <div class="project-box" 
+        style="background-image: linear-gradient( rgba(0, 0, 0,0.3), rgba(0, 0, 0,0.2)), url(project4.jpg)">
+          <h1>Travel</h1>
+          <div class="project-info">
+            <img src="/github.png" alt="">
+          <h1>Travel</h1>
+          <small>A Professional Travel Website Design.</small>
+   <a href="https://adg1331.github.io/Travel-WebPage-Design/">
+     <button class="project-btn">Live-Demo</button>
+   </a>
+          </div>
+        </div>
+       
+       
+        <div class="project-box"
+        style="background-image: linear-gradient( rgba(0, 0, 0,0.3), rgba(0, 0, 0,0.2)), url(project3.jpg)">
+          <h1>Kitchen</h1>
+          <div class="project-info">
+            <img src="/github.png" alt="">
+          <h1>Kitchen</h1>
+          <small>An Amazing Kitchen Website Design</small>
+   <a href="https://adg1331.github.io/Professional-Kitchen-Webpage-Design/">
+     <button class="project-btn">Live-Demo</button>
+   </a>
+          </div>
+        </div>
+      
+      
+        <div class="project-box"
+        style="background-image: linear-gradient( rgba(0, 0, 0,0.3), rgba(0, 0, 0,0.2)), url(project2.jpg)">
+          <h1>Amazon</h1>
+          <div class="project-info">
+            <img src="/github.png" alt="">
+          <h1>Amazon Clone</h1>
+          <small>Amazon Clone Webpage Design</small>
+   <a href="">
+     <button class="project-btn">Live-Demo</button>
+   </a>
+          </div>
+        </div>
+        
+       
+        <div class="project-box"
+        style="background-image: linear-gradient( rgba(0, 0, 0,0.3), rgba(0, 0, 0,0.2)), url(project1.jpeg)">
+          <h1>Netflix</h1>
+          <div class="project-info">
+            <img src="/github.png" alt="">
+          <h1>Netflix</h1>
+          <small>Netflix Official Website Clone Design</small>
+   <a href="">
+     <button class="project-btn">Live-Demo</button>
+   </a>
+          </div>
+        </div>
+      
+        <div class="project-box" 
+        style="background-image: linear-gradient( rgba(0, 0, 0,0.3), rgba(0, 0, 0,0.2)), url(project5.jpg)">
+          <h1>Portfolio</h1>
+          <div class="project-info">
+            <img src="/github.png" alt="">
+          <h1>Portfolio</h1>
+          <small>Attention Grabbing Buisness Website Design</small>
+   <a href="https://adg1331.github.io/Portfolio-Website/#">
+     <button class="project-btn">Live-Demo</button>
+   </a>
+          </div>
+          <!----Project-info Ended---->
+        </div>
+        <!----Project-Box Ended---->
+        </div>
+       <!----Project Container ended----->
+       </div>
+       <!----Project-Section Ended---->
+       
+       
+       
+       
+     <!---------Experience Section----------->
+     <div class="experience-section">
+       
+       <div class="experience-con">
+         
+         <div class="experience-title">
+           <span>what I'll learn in future</span>
+           <h1>work experience.</h1>
+         </div>
+         
+       <!----- Step Progress Bar ----->
+         <div class="progress">
+           <div class="progress-con">
+             <div class="progress-dot"></div>
+       
+             <div class="progress-text">
+               <h3>Front-End Development</h3>
+               <small>2024-2025</small>
+               <span>javascript, react, three-js</span>
+               <span class="arrow"></span>
+             </div>
+           </div>
+           
+           <div class="progress-con">
+              <div class="progress-dot"></div>
+       
+             <div class="progress-text">
+               <h3>Back-End Development</h3>
+               <small>2025-2026</small>
+               <span>javascript, d-jango, mongo-db</span>
+               <span class="arrow"></span>
+             </div>
+           </div>
+           
+           <div class="progress-con">
+           <div class="progress-dot"></div>
+          
+             <div class="progress-text">
+               <h3>Ui/Ux Designing</h3>
+               <small>2026-2027</small>
+               <span>figma, adobe-xd, webflow</span>
+               <span class="arrow"></span>
+             </div>
+           </div>
+           
+           <div class="progress-con">
+             <div class="progress-dot"></div>
+          
+             <div class="progress-text">
+               <h3>Software Engineering</h3>
+               <small>2028-2032</small>
+               <span>database, data-structure</span>
+               <span class="arrow"></span>
+             </div>
+           </div>
+            <!-----progress-con ended----->
+         </div>
+         <!-----progress ended----->
+       </div>
+       <!-----experience-con ended----->
+      </div>
+      <!-----experience section ended----->
+      
+      
+      
+      
+      
+      <!--------contact section---------->
+      <div class="contact-section" id="contact">
+        <div class="form-con">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+            
+            <div class="form-title">
+              <span>get in touch</span>
+              <h1>contact</h1>
+            </div>
+            
+         <input type="hidden" name="access_key" value="65192a32-3c98-4e25-a405-cd27c01d058c">
+         <input type="text" name="name" placeholder="what's your name?" class="contact-inputs" required>
+       
+         <input type="email" name="email" placeholder="what's your email?" class="contact-inputs" required>
+       
+         <textarea name="message" placeholder="write Your Message here" class="contact-inputs" required></textarea>
+         
+         <button class="contact-btn">Send
+         <i class="bi bi-cursor-fill"></i>
+         </button>
+        </form>
+        </div>
+        <!----Form-con ended----->
+       </div>
+       <!-----contact section ended------>
+     
+     
+     <!------------main wrapper ended-------------->
+     </div>
+  
+  
+  <!-------------Nav Menu JavaScript--------------->
+ <script>
+   let subMenu = document.getElementById("subMenu");
+
+   function toggleMenu() {
+       subMenu.classList.toggle("open-Menu");
+   }
+ </script>
+
+
+</body>
+</html>
