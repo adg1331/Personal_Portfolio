@@ -412,7 +412,7 @@ html, body {
   height: 70vh;
   width: 100vw;
   background-image: linear-gradient( rgba(0, 0, 0,0.6), rgba(0, 0, 0,0.7))
-  ,url(/technology.jpg);
+  , url(technology.jpg);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
